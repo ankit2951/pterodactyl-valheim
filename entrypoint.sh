@@ -13,6 +13,6 @@ START_COMMAND=$(echo -e ${MODIFIED_STARTUP})
 echo -e ":/home/container$ ${START_COMMAND}"
 
 # Run the Server
-${MODIFIED_STARTUP}
+eval ${MODIFIED_STARTUP}
 
 export LD_LIBRARY_PATH=$templdpath
