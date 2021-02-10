@@ -61,7 +61,7 @@
             "default_value": "CHANGEME",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|string"
+            "rules": "required|string|min:5"
         },
         {
             "name": "World Name",
